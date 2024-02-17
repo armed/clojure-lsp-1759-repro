@@ -1,0 +1,4 @@
+{:mvn/repos {"example" {:url "https://example.repo.com"} }
+ :paths ["src"]
+ :deps {metosin/malli {:mvn/version "0.14.0"}
+        my/library {:local/root "../my-library"}}}
